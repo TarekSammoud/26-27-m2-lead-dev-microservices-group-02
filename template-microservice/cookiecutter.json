@@ -1,0 +1,7 @@
+{
+  "service_name": "my_service",
+  "package_name": "{{ cookiecutter.service_name.replace('-', '_').replace(' ', '_') }}",
+  "__prompts__": {
+    "service_name": "Directory name for the new microservice (e.g. stats, video-convert)"
+  }
+}
